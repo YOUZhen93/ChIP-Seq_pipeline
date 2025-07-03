@@ -13,13 +13,13 @@ Notes: -M: analysis mode: input or peak. input: inputs are input fastq and only 
        chr2    1       242193529
        chr3    1       198295559
        
-# config file: ChIP_default.config
+### config file: ChIP_default.config
 Notes used for QC script ChIP_Seq_QC_report_v1.sh, modified as needed;
 
-# QC script: ChIP_Seq_QC_report_v1.sh
+### QC script: ChIP_Seq_QC_report_v1.sh
 Notes: this would generated .tsv QC report along with .markdown and .html QC report files; keep generated figures with the .html file; require qualimap tool and chipseq_qc.R script;
 
-# QC R script: chipseq_qc.R
+### QC R script: chipseq_qc.R
 Notes: require ChIPQC R package, currently support hg38 only (modify R script with mm10 UCSC TxDb package to adapt mouse data)
 
 
