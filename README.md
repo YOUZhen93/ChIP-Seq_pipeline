@@ -10,7 +10,7 @@ Notes: -M: analysis mode: input or peak. input: inputs are input fastq and only 
        -B: TRUE for broadpeak and FALSE for narrow one.
        -P (optional): primary assembly bed file. Only keep primary assembly e.g.:
        |    |    |    |
-       |----------|----------|----------|
+       |:-----|:-----|:-----|
        | chr1    | 1     | 248956422     |
        | chr2    | 1     | 242193529     |
        | chr3    | 1     | 198295559     |
