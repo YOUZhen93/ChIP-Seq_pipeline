@@ -14,6 +14,13 @@ Notes: -M: analysis mode: input or peak. input: inputs are input fastq and only 
        | chr1    | 1     | 248956422     |
        | chr2    | 1     | 242193529     |
        | chr3    | 1     | 198295559     |
+
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Row 1, C1| Row 1, C2| Row 1, C3|
+| Row 2, C1| Row 2, C2| Row 2, C3|
+| Row 3, C1| Row 3, C2| Row 3, C3|
        
 ### config file: ChIP_default.config
 Notes used for QC script ChIP_Seq_QC_report_v1.sh, modified as needed;
