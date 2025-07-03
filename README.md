@@ -25,4 +25,10 @@ Notes: this would generated .tsv QC report along with .markdown and .html QC rep
 ### QC R script: chipseq_qc.R
 Notes: require ChIPQC R package, currently support hg38 only (modify R script with mm10 UCSC TxDb package to adapt mouse data)
 
-
+### generate consensus peaks R script: generate_consensus_peaks.R
+Notes: needs meta table with "Peaks" header and each line represents a individual peak file
+example:
+| Peaks |
+|----------|----------|----------|
+| peak_file1 |
+...
