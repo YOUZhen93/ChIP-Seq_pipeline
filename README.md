@@ -9,7 +9,7 @@ Notes: -M: analysis mode: input or peak. input: inputs are input fastq and only 
        -a: adapters has 4 options: stranded_illumina or illumina or none or BGI; users can provide their own adapter sequences, if two ends have different adapter seqs, use comma to separate them, e.g., ATGC,GTAC
        -B: TRUE for broadpeak and FALSE for narrow one.
        -P (optional): primary assembly bed file. Only keep primary assembly e.g.:
-       | | | |
+       |    |    |    |
        |----------|----------|----------|
        | chr1    | 1     | 248956422     |
        | chr2    | 1     | 242193529     |
