@@ -1,7 +1,7 @@
-ChIP-Seq analysis pipeline (work on linux)
-Author: Zhen Y
+## ChIP-Seq analysis pipeline (work on linux)
+## Author: Zhen Y
 
-main script: ChIP-Seq_pipeline.sh
+# main script: ChIP-Seq_pipeline.sh
 example: ChIP-Seq_pipeline.sh -1 1.fastq.gz -2 2.fastq.gz -M input|peak -o outdir -a illumina -r ref_genome_bowtie_index -s sample_id -t 10 -b path_to_blacklist_bed -P primary_assembly_bed -C chrom.size \
 -G gtf_annotation -B TRUE|FALSE -c 0.01 -q 20 -S hs|mm -I path_to_input_bam
 
@@ -13,13 +13,13 @@ Notes: -M: analysis mode: input or peak. input: inputs are input fastq and only 
        chr2    1       242193529
        chr3    1       198295559
        
-config file: ChIP_default.config
+# config file: ChIP_default.config
 Notes used for QC script ChIP_Seq_QC_report_v1.sh, modified as needed;
 
-QC script: ChIP_Seq_QC_report_v1.sh
+# QC script: ChIP_Seq_QC_report_v1.sh
 Notes: this would generated .tsv QC report along with .markdown and .html QC report files; keep generated figures with the .html file; require qualimap tool and chipseq_qc.R script;
 
-QC R script: chipseq_qc.R
+# QC R script: chipseq_qc.R
 Notes: require ChIPQC R package, currently support hg38 only (modify R script with mm10 UCSC TxDb package to adapt mouse data)
 
 
