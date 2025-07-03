@@ -9,19 +9,11 @@ Notes: -M: analysis mode: input or peak. input: inputs are input fastq and only 
        -a: adapters has 4 options: stranded_illumina or illumina or none or BGI; users can provide their own adapter sequences, if two ends have different adapter seqs, use comma to separate them, e.g., ATGC,GTAC
        -B: TRUE for broadpeak and FALSE for narrow one.
        -P (optional): primary assembly bed file. Only keep primary assembly e.g.:
-       |    |    |    |
-       |:-----|:-----|:-----|
-       | chr1    | 1     | 248956422     |
-       | chr2    | 1     | 242193529     |
-       | chr3    | 1     | 198295559     |
 
-
-|  |  |  |
-|----------|----------|----------|
-| chr1| Row 1, C2| Row 1, C3|
-| chr2| Row 2, C2| Row 2, C3|
-| chr3| Row 3, C2| Row 3, C3|
-       
+| chr1| 1| 248956422|
+| chr2| 1| 242193529|
+| chr3| 1| 198295559|
+...
 ### config file: ChIP_default.config
 Notes used for QC script ChIP_Seq_QC_report_v1.sh, modified as needed;
 
