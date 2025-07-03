@@ -28,7 +28,8 @@ Notes: require ChIPQC R package, currently support hg38 only (modify R script wi
 ### generate consensus peaks R script: generate_consensus_peaks.R
 Notes: needs meta table with "Peaks" header and each line represents a individual peak file
 example:
-| Peaks |
+
+| Peaks |  |  |
 |----------|----------|----------|
-| peak_file1 |
+|peak_file1 |
 ...
