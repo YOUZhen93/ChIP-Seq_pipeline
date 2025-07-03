@@ -1,7 +1,7 @@
-## ChIP-Seq analysis pipeline (work on linux)
+# ChIP-Seq analysis pipeline (work on linux)
 ## Author: Zhen Y
 
-# main script: ChIP-Seq_pipeline.sh
+### main script: ChIP-Seq_pipeline.sh
 example: ChIP-Seq_pipeline.sh -1 1.fastq.gz -2 2.fastq.gz -M input|peak -o outdir -a illumina -r ref_genome_bowtie_index -s sample_id -t 10 -b path_to_blacklist_bed -P primary_assembly_bed -C chrom.size \
 -G gtf_annotation -B TRUE|FALSE -c 0.01 -q 20 -S hs|mm -I path_to_input_bam
 
